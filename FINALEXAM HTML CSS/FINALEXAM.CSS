@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background: linear-gradient( #c9efc9, #ffffff);
+    height: 100vh;
+    overflow: hidden;
+}
+.background:hover{
+    background: linear-gradient( #c9efc9, #ffffff);
+}
+.background:hover .child2{
+    background-color: #f0de36;
+
+}
+.background:hover .child1 button{
+    background-color: #f0de36;
+
+}
+
+.menu{
+    height: 50px;
+    width: 1920px;
+    background-color: #164B60;
+    position: relative;
+
+}
+.proflie{
+    height: 25px;
+    width: 25px;
+    border: solid 2px white;
+    position: absolute;
+    top: 10px;
+    border-radius: 2px;
+   left: 1690px;
+}
+
+.menu h1{
+    padding-top: 8px;
+    color: white;
+    margin-left: 50px;
+}
+.tag{
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    margin-right: 281px;
+    gap: 50px;
+    margin-top: -32px;
+
+}
+.tag a{
+    text-decoration: none;
+    color: white;
+}
+.parent{
+    display: flex;
+     position: relative;
+    
+}
+.child2{
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    background-color: #fd8d14;
+    top: 330px;
+    left: 845px;
+    position: absolute;
+}
+.child2 img{
+    position: absolute;
+    left: 20px;
+    height: 760px;
+    width: 973px;
+    top: -194px;
+}
+.child1{
+    position: absolute;
+    left: 150px;
+    top: 210px;
+}
+.child1 h1{
+font-size: 50px;
+margin-top: 30px;
+}
+.child1 p{
+    font-size: 30px;
+    margin-top: 40PX;
+    line-height: 35px;
+}
+.child1 button{
+    height: 50px;
+    width: 150px;
+    background-color: #fd8d14;
+    color: #ffffff;
+    margin-top: 50PX;
+    font-size: 24PX;
+    border-radius: 12px;
+    border: none;}
+.child1 h2{
+ margin-left: 8px;
+ margin-top: -4px;
+ position: absolute;
+
+}
